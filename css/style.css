@@ -1,0 +1,1615 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/0f/38/73/0f3873f47f76505d07a1ebef5224d4fd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: serif;
+	overflow: auto;
+    }
+	
+/* Info Stuff */
+
+.info{
+	background-color: white;
+	background-position: left;
+    width: 75%;
+	float: right;
+	padding: 20px;
+	margin-top: 5px;
+	margin-right: 40px;
+	text-align: center;
+	border-radius: 20px;
+    }
+	
+.cra{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.o{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.g{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.ss{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.oc{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.thc{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.pa{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.mmf{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+.wwf{
+	background-color: white;
+	background-position: left;
+    width: 60%;
+	float: right;
+	padding: 16px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 140px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	opacity: 0.8;
+    }
+	
+/* Homepage */
+
+.topnav{
+	overflow: hidden;
+	background-color: #0087B5;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	opacity: 0.8;
+    }
+
+.topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	position: relative;
+	right: 20px;
+    }
+	
+.topnav a:hover {
+	background-color: #ADD8E6;
+	color: black;
+    }
+
+.topnav a.active{
+	float: right;
+	background-color: #216F3;
+	color: white;
+    }
+
+.topnav input[type=text] {
+    float: left;
+	padding: 10px;
+	width: 80%;
+	border: none;
+	border-radius: 10px;
+	margin-top: 4px;
+	margin-right: 16px;
+	font-size: 17px;
+	position: relative;
+	left: 80px;
+    }
+
+@media screen and (max-width: 600px) {
+	.topnav a,.topnav input[type=text] {
+	float: none;
+	display: block;
+	text-align: right;
+	width: 50%;
+	margin: 0;
+	padding: 14px;
+	}
+	
+	.topnav input[type=text]{
+	border: 1px solid #ccc;
+	}
+    }
+	
+.hi{
+	float: left;
+	background-color: #0087B5;
+	opacity: 0.8;
+	width: 40%;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 18px;
+	color: white;
+	position: fixed;
+	top: 300px;
+    }
+	
+.hi:hover{
+	transform: translate(10px);
+    }
+
+.categ{
+	float: right;
+	background-color: #0DAEE5;
+	width: 20%;
+	padding: 20px;
+	border-radius: 15px;
+	margin: 18px;
+	color: white;
+	text-decoration: none;
+    }
+
+.categ:hover{
+	background-color: #0087B5;
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+    }
+	
+/* Categories */
+
+.home{
+	float: left;
+	background-color: #0DAEE5;
+	width: 10%;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 18px;
+	color: white;
+	text-decoration: none;
+    }
+
+.home:hover{
+	background-color: #0087B5;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+    }
+
+.sharks{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/7a/fc/0b/7afc0b9ff24995fbc276ecfa6cd6cdbf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 60px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 180px;
+    }
+	
+.jellyfish{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/1a/e4/6b/1ae46be5ac15ce6899f6e9310a855b9c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+    border-radius: 25px;
+    float: right;
+	margin-right:auto;
+	font-size: 60px;
+	position: relative;
+	right: 180px;
+
+    }	
+	
+.starfish{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/51/6e/db/516edbf4070195292e16d3bdb12bdcaa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 40px;
+	border-radius: 25px;
+	float: right;
+	margin-right:auto;
+	font-size: 60px;
+	position: relative;
+	right: 180px;
+    }	
+	
+.whale{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/e6/84/ac/e684ac7ecc6dd6e0f13983cfbc6ba1e2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 20px;
+	border-radius: 25px;
+	float: right;
+	margin-right:auto;
+	font-size: 60px;
+	position: relative;
+	right: 180px;
+    }	
+	
+.slug{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/49/9d/05/499d0543377e2ddd955db68f770b2c77.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 40px;
+    border-radius: 25px;
+	float: right;
+	margin-right:auto;
+	font-size: 60px;
+	position: relative;
+	right: 180px;
+    }	
+	
+/* Sharks */
+
+video{
+	float: left;
+	position: fixed;
+	top: 220px;
+	left: 15px;
+  }
+
+.back{
+	float: left;
+	background-color: #0DAEE5;
+	width: 10%;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 18px;
+	color: white;
+	text-decoration: none;
+	position: fixed;
+	top: 140px;
+	left: 10px;
+    }
+
+
+.back:hover{
+	background-color: #0087B5;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+    }
+
+.whaleshark{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/c2/c9/47/c2c9472d964df95b615b3170f20f7eb9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	}
+	
+	.greatwhite{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/63/1d/ec/631dec304120947f9b5e051be94919ea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 18px;
+	right: -350px;
+	}
+	
+	.nurseshark{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/d8/3e/92/d83e9230809958f3cd02a437bec505fd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: -2px;
+	right: -850px;
+	}
+	
+	.hammerhead{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/df/08/ef/df08ef09ccaa6c1885e2c6c2d467e5b6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 50px;
+	right: 205px;
+	}
+	
+	.bullshark{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/52/ab/d7/52abd7650d1bde94434f13e68c1bfd1c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	right: 282px;
+	}
+	
+	.lemonshark{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/94/32/29/94322910496c0005536d8569537997ee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	left: 335px;
+	}
+	
+/* Jellyfish */
+
+.jelly{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/1a/e4/6b/1ae46be5ac15ce6899f6e9310a855b9c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 60px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 180px;
+    }
+	
+	.lion{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.trvst.world/wp-content/uploads/2022/10/lions-mane-jellyfish.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	}
+	
+	.crystal{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.trvst.world/wp-content/uploads/2022/10/crystal-jellyfish.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 18px;
+	right: -350px;
+	}
+	
+	.nettle{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/e3/f7/3f/e3f73f84c58921201d48b100259ff0cc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: -2px;
+	right: -850px;
+	}
+	
+	.cauli{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/53/26/64/5326642a985b9501c5badcacdbbec8c6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 50px;
+	right: 205px;
+	}
+	
+	.pink{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/63/77/fe/6377fe4aecbcfd9c05c3c02b19ab9179.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	right: 282px;
+	}
+	
+	.mushroom{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://i.pinimg.com/564x/2a/87/bd/2a87bd836584d1325fc86a1605cb49fc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	left: 335px;
+	}
+	
+/* Starfish */
+
+.star{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/51/6e/db/516edbf4070195292e16d3bdb12bdcaa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 60px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 180px;
+    }
+	
+	.leather{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/kNvG4wasyy2H-YkjNMxkAECbdkE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/anemone-and-starfish-1271856868-c93e21693d334ef0bf60f9d5b6dd403f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	}
+	
+	.granulated{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/9ff7bK_HhwuOyv-YAcOCtazb2Jc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/granulated-starfish--bali-521171248-91f59dad9ef54fda9266586f42ab1954.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 18px;
+	right: -350px;
+	}
+	
+	.royal{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/VXM8owz-xZft6pxuFk2nGOMIQ8U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Royal_starfish_Astropecten_articulatus_on_the_beach-4b9ec90b39c74b1aad61d0f833d7b7d1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: -2px;
+	right: -850px;
+	}
+	
+	.crown{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/n2BoraSLeso3oGoAVhbd1MDjGhk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/a-crown-of-thorns-starfish-feeding-on-coral-947450334-75b305df53e94f8fa2c1f9420d6632ba.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 50px;
+	right: 205px;
+	}
+	
+	.bri{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/_h9J2pmZ3rpnx_QbvQ9bo9e7fNI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/5277868166_3d17c1b8e6_o-ae39e9cb0ad44be9bba25fac5d4b1ebf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	right: 282px;
+	}
+	
+	.necklace{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.treehugger.com/thmb/CWAUH4J76qvr6T1I6XAGwR_ikMI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/necklace-sea-star--fromia-monilis---great-barrier-reef--unesco-world-heritage--pacific-1190648123-dc76db07a7eb4e4ea8a5d9a4b9169c55.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	left: 335px;
+	}
+	
+/* Whales */
+
+.whales{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/e6/84/ac/e684ac7ecc6dd6e0f13983cfbc6ba1e2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 60px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 180px;
+    }
+	
+	.orca{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.uwphotographyguide.com%2Forca-killer-whale-facts&psig=AOvVaw3cPUPy29Pq3-EwPOvws_nw&ust=1704721588469000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCBmP20y4MDFQAAAAAdAAAAABAD");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	}
+	
+	.sperm{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.oceanactionhub.org/storage/2023/10/Sperm-Whales-Hunting.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 18px;
+	right: -350px;
+	}
+	
+	.blue{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: -2px;
+	right: -850px;
+	}
+	
+	.beluga{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Chuchill_And_Arctic_Summer_Beluga_travel_8.16.2012/hero_small/7i55m4jsep_beluga_whale_Kevin_Schafer_WWF_Canon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 50px;
+	right: 205px;
+	}
+	
+	.nar{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://files.worldwildlife.org/wwfcmsprod/images/Narwhal_Group_232820/story_full_width/3ucwcuwul6_MID_232820_Paul_Nicklen_NAtional_GEographic_Stock_WWF_Canada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	right: 282px;
+	}
+	
+	.hump{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.popularmechanics.com%2Fscience%2Fa46130273%2Fscientists-are-learning-how-to-talk-to-aliens-from-whales%2F&psig=AOvVaw0MmyodwHm2baeuPz_5mtlc&ust=1704721938668000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjH3ay2y4MDFQAAAAAdAAAAABAD");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	left: 335px;
+	}
+	
+/* Sea Slugs */
+
+.sea{
+    text-align:center;
+	text-decoration: none;
+    background-image: url("https://i.pinimg.com/564x/49/9d/05/499d0543377e2ddd955db68f770b2c77.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    width: 63%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 25px;
+	font-size: 60px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 180px;
+    }
+	
+	.bunny{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Jorunna_parva%2C_Osezaki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	margin-right: 10px;
+	position: relative;
+	top: 150px;
+	left: 130px;
+	}
+	
+	.angel{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 18px;
+	right: -350px;
+	}
+	
+	.leaf{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2015/07/leaf-sheep-sea-slug-costasiella-kuroshimae-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: -2px;
+	right: -850px;
+	}
+	
+	.dirona{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/28/Dirona_albolineata.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	position: relative;
+	top: 50px;
+	right: 205px;
+	}
+	
+	.spider{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://www.shutterstock.com/image-photo/underwater-shot-on-large-sea-600nw-1807396141.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: right;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	right: 282px;
+	}
+	
+	.jan{
+	text-align:center;
+	text-decoration:none;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Janolus_fuscus_3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+	width: 15%;
+    padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 15px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+	position: relative;
+	top: 50px;
+	left: 335px;
+	}
+	
+/* Footer */
+
+footer{
+	text-align: center;
+	padding: 10px;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: auto;
+    }
+	
+#copyright{
+	background-color: #0087B5;
+	height: 7%;
+	width: 100%;
+    margin: auto;	
+	padding-top: 10px;
+	text-indent: 10px;
+	text-align: left;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	right: 20%;
+   }
+   
+#sprite a{
+	margin-right: 30px;
+	float: right;
+   }
+   
+#facebook{
+	background: url('fb.png') no-repeat -226px -129px;
+	width: 33px;
+	height: 32px;
+   }
+   
+#facebook:hover{
+	filter: grayscale(100%);
+    }
+	
+#twitter{
+	background: url('twitter.png') no-repeat -340px -129px;
+	width: 33px;
+	height: 33px;
+   }
+   
+#twitter:hover{
+	filter: grayscale(100%);
+    }
+	
+/* Facts */
+	
+.sfactone{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.sfacttwo{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.sfactthree{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.sfactfour{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.sfactfive{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.sfactsix {
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	
+
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfactone{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfacttwo{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfactthree{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfactfour{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfactfive{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.jfactsix {
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	
+
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfactone{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfacttwo{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfactthree{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfactfour{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfactfive{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.stfactsix {
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfactone{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfacttwo{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfactthree{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfactfour{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfactfive{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.ssfactsix {
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfactone{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfacttwo{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfactthree{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfactfour{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfactfive{
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
+	
+.wfactsix {
+	background-color: #18B7ED;
+	color: white;
+    width: 35%;
+	float: right;
+	padding: 20px;
+	margin: 10px;
+	text-align: left;
+	border-radius: 20px;
+	float: right;
+	margin-right: auto;
+	position: relative;
+	right: 40px;
+    }
